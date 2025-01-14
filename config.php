@@ -1,6 +1,6 @@
 <?php
 // Define constants
-define('NEWS_API_KEY', '0a5a8e4e2b3849e8b94c7e438e088246');
+define('NEWS_API_KEY', getenv(NEWS_KEY));
 define('NEWS_API_ENDPOINT', 'https://newsapi.org/v2/');
 
 // Helper function to make API requests
